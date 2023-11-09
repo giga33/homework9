@@ -5,7 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>homework9</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="form-section">
+        <div class="form-wrapper">
+          <div class="header-wrapper">
+            <div>Premium</div>
+            <div>$199/month</div>
+          </div>
+          <div class="header-text-wrapper">Faster Instagram Growth</div>
+
+          <form action="">
+            <div class="date-cvv-wrapper">
+              <input type="text" placeholder="Date" class="date-input" />
+              <input type="text" placeholder="CVV" class="cvv-input" />
+            </div>
+            <div class="country-zip-wrapper">
+              <div>
+                <label for="country" class="country-label">country</label>
+                <select name="country" id="country"></select>
+                <option value="georgia">georgia</option>
+              </div>
+              <div>
+                <input type="text" placeholder="Zip" />
+              </div>
+            </div>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" />
+              <p>
+                I accept the <span> Terms of Service</span> and
+                <span>Privacy Policy</span>
+              </p>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              Get started | $199 <span> $249</span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="reviews-section"></div>
+    </main>
+  </body>
 </html>
